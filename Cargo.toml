@@ -1,0 +1,15 @@
+[package]
+name = "sound_shader"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "1.14.0"
+cpal = "0.15.2"
+gtk4 = "0.7.3"
+hound = "3.5.1"
+nalgebra = "0.32.3"
+pollster = "0.3.0"
+wgpu = "0.10.2"
